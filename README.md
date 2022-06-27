@@ -1,1 +1,8 @@
 # CS360
+
+I developed a mobile app for android devices that would allow users to enter their weight once per day.  The app would allow for multiple users and once a user logged in they would stay logged in until they logged themselves out.  The app would display the data for the user and send them a text message when they reached their pre-determined goal.
+The app utilizes a login screen, a register screen, a home screen, a setting screen, a data entry screen, and a view data screen.  It uses a sqlite database to store user details and weight entries.  It uses sharedpreferences to store login information.  It also uses permissions to get permission from the user to text them.
+My approach to coding the app was to visualize the flow of data and make sure the UI was consistent throught the app.  I started with the login/register action and once that was working I went on one activity at a time.
+I tested the app by creating a user and trying to enter data or perform actions that would cause an error.  I occasionally had to go back to activities that were complete to make changes to support other activities.
+During the full design and development process my biggest struggles were with Android Studio and my emulators not working.  I was able to overcome those issues and don't forsee them being a problem in the future, but it took a lot of time away from the project.
+I think I did especially well on the permissions from the user.  The user could update their settings to allow text messages, but if they tried to remove them I was able to give them a message telling them to disable them in their phone settings.
